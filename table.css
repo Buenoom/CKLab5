@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "RussianRail";
+  src: url("RussianRail G Pro Regular_0.otf") format(opentype);
+}
+
+.header {
+  display: flex;
+  justify-content: right;
+  background: #999790;
+}
+
+body {
+  background: #eae7dc;
+}
+
+a {
+  font-size: 24px;
+  font-family: "RussianRail";
+  margin: 16px;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+  border: 2px solid black;
+  font-family: "RussianRail";
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #dab4b0;
+}
+
+caption {
+  font-size: 24px;
+  font-family: "RussianRail";
+  color: #515151;
+}
